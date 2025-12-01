@@ -1,0 +1,19 @@
+🧠 ResNet18-Based Bone Fracture Detection with Grad-CAM — Description
+
+Uses a modified ResNet18 deep learning model trained for two classes: Normal and Fracture.
+
+Allows users to upload an X-ray image directly in Google Colab.
+
+Preprocesses the image with resizing, normalization, and tensor conversion.
+
+Generates Grad-CAM heatmaps to highlight important regions influencing the model's decision.
+
+Overlays the heatmap on the original X-ray to provide visual explanation of the prediction.
+
+Uses contour extraction to draw bounding boxes around areas that may indicate a fracture.
+
+Predicts the class label and displays it along with the visually marked image.
+
+Saves the output image automatically for later review or documentation.
+
+Helps in AI-assisted medical diagnosis, research, and interpretability studies.
